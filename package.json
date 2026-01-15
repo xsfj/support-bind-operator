@@ -1,6 +1,6 @@
 {
   "name": "support-bind-operator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SBO",
   "keywords": [
     "support",
@@ -20,7 +20,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "dependencies": {
     "array-pad": "^0.0.1",
@@ -32,5 +32,8 @@
     "ofn": "^1.0.0",
     "plainify": "^1.0.0",
     "wfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
   }
 }
