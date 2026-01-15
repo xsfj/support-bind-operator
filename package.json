@@ -1,0 +1,36 @@
+{
+  "name": "support-bind-operator",
+  "version": "1.0.0",
+  "description": "SBO",
+  "keywords": [
+    "support",
+    "bind",
+    "opeartor"
+  ],
+  "homepage": "https://github.com/xsfj/support-bind-operator#readme",
+  "bugs": {
+    "url": "https://github.com/xsfj/support-bind-operator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsfj/support-bind-operator.git"
+  },
+  "license": "MIT",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "array-pad": "^0.0.1",
+    "fast-path-set": "^1.0.1",
+    "ffn": "^2.1.0",
+    "is-global-object": "^1.0.0",
+    "is-nil": "^1.0.1",
+    "is-object": "^1.0.2",
+    "ofn": "^1.0.0",
+    "plainify": "^1.0.0",
+    "wfn": "^1.0.0"
+  }
+}
